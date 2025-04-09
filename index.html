@@ -1,11 +1,106 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Hello GitHub Pages</title>
+  <title>2025年GW お店候補</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 3rem;
+    }
+    .day {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .restaurants {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .restaurant {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .restaurant h2 {
+      margin-top: 0;
+    }
+    .restaurant a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .restaurant a:hover {
+      text-decoration: underline;
+    }
+    .address {
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, GitHub Pages!</h1>
+
+<h1>2025年GW お店候補</h1>
+
+<div class="calendar">
+  <div class="day">4/27（日）</div>
+  <div class="day">4/28（月）</div>
+  <div class="day">4/29（火・祝）</div>
+  <div class="day">4/30（水）</div>
+  <div class="day">5/1（木）</div>
+  <div class="day">5/2（金）</div>
+  <div class="day">5/3（土・祝）</div>
+  <div class="day">5/4（日・祝）</div>
+  <div class="day">5/5（月・祝）</div>
+  <div class="day">5/6（火・祝）</div>
+</div>
+
+<div class="restaurants">
+
+  <div class="restaurant">
+    <h2>鶏と炭火 とり坊 赤坂警固店</h2>
+    <p class="address">福岡県福岡市中央区警固２-11-10 1F</p>
+    <a href="https://www.hotpepper.jp/strJ001269319/?vos=cpshppprocap0121226001" target="_blank">HotPepperページを見る</a>
+  </div>
+
+  <div class="restaurant">
+    <h2>焼肉 長介 薬院大通り店</h2>
+    <p class="address">福岡県福岡市中央区薬院２-1-8 リアン薬院ビル 7F</p>
+    <a href="https://www.hotpepper.jp/strJ003715970/?vos=cpshppprocap0121226001" target="_blank">HotPepperページを見る</a>
+  </div>
+
+  <div class="restaurant">
+    <h2>TORIYA</h2>
+    <p class="address">福岡県福岡市中央区平尾2-14-18<br>電話: 092-525-1177</p>
+    <a href="https://tabelog.com/fukuoka/A4001/A400104/40064984/" target="_blank">食べログページを見る</a>
+  </div>
+
+  <div class="restaurant">
+    <h2>不明（リンクのみ）</h2>
+    <p class="address">リンクのみ記載（詳細未確認）</p>
+    <a href="https://s.tabelog.com/fukuoka/A4001/A400103/40021035/" target="_blank">食べログページを見る</a>
+  </div>
+
+</div>
+
 </body>
 </html>
